@@ -1,0 +1,80 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 14-Sept-2023, 10:53:26 am
+    Author     : venkadesh
+*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+}
+body{
+    background-color: #F3E0EC;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.k span{
+    font-size:40px;
+}
+.k
+{
+    font-size:30px;
+    position: absolute;
+    bottom:40px;
+    width:100%;
+
+}
+img
+{
+    width: 500px;
+    height: 100%;
+    animation: 2s ease 0.5s infinite normal forwards slide;
+}
+@keyframes slide{
+    0%
+    {
+        transform:scale(100%,100%);
+    }
+    50%
+    { 
+        transform:scale(75%,75%);
+    }
+    100%
+    {
+        transform:scale(100%,100%);
+    }
+}
+.h
+{
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    padding: 20px 100px;
+    background: #3591F2;
+    display: flex;
+    justify-content: flex-end;
+   
+    align-items: center;
+}
+.m a
+{
+    font-size: 18px;
+    color: #fff;
+    font-weight: 400;
+    text-decoration: none;
+    margin-left: 40px;
+}
+.m a:hover 
+{
+    text-decoration:underline;
+}
+
